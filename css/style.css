@@ -1,9 +1,17 @@
+/* Import Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Body */
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Calibri", Arial, Verdana, sans-serif;
+  font-family: "Roboto", Arial, Verdana, sans-serif;
 }
- 
+
+/* Navigation */
+
 nav ul {
   list-style: none;
   background-color: #4a4a4f;
@@ -36,9 +44,13 @@ nav a:active {
   color: #e67e22;
 }
 
+/* Heading H1 */
+
 h1 {
   text-align: center;
 }
+
+/* Links */
 
 a {
   text-decoration: none;
